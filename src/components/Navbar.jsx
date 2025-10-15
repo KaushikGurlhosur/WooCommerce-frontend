@@ -75,7 +75,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-gray/90 flex flex-col items-center justify-center gap-8 z-50">
+        <div className="fixed inset-0 bg-black/50 flex flex-col items-center justify-center gap-8 z-50">
           <div className="absolute inset-0 blur"></div>
           <div className="relative flex flex-col items-center gap-6 ">
             {routes.map((route) => (
