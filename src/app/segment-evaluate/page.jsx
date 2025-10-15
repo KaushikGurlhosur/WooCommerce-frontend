@@ -25,7 +25,7 @@ export default function Page() {
 
   return (
     <main className="max-w-3xl mx-auto py-10 mt-30 ">
-      <h1 className="text-2xl font-bold mb-6 text-purple-700">
+      <h1 className="text-2xl font-bold mb-6 text-purple-200 flex justify-center">
         Product Segmentation Tool
       </h1>
       <SegmentEditor

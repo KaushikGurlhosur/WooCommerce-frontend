@@ -22,7 +22,7 @@ on_sale = true`
   };
 
   return (
-    <div className="p-6 border border-dashed border-gray-400 rounded-xl bg-gray-50 shadow-inner">
+    <div className="p-6 border-2 border-dashed border-purple-400 rounded-xl bg-gray-50 shadow-inner">
       <h3 className="text-xl font-semibold mb-3">📝 Segment Rule Editor</h3>
       <p className="text-sm text-gray-600 mb-4">
         Enter one product condition per line (e.g.,{" "}
