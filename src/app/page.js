@@ -31,7 +31,7 @@ export default function HomePage() {
   const { products, totalPages, currentPage, totalProducts } = data;
 
   return (
-    <div className="p-6 max-w-7xl mx-auto">
+    <div className="p-6 max-w-7xl mx-auto mt-30">
       {/* PAGINATED PRODUCT GRID SECTION */}
       <h2 className="text-2xl font-bold mb-4 text-center">All Products View</h2>
 
