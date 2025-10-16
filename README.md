@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+## 💻 FRONTEND README (`frontend/README.md`)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+```markdown
+# 🛍️ WooCommerce Frontend (Next.js App Router)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is the **frontend** of the WooCommerce Product Segmentation Tool, built using **Next.js (App Router)** and **Tailwind CSS**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+It interacts with the deployed backend to:
+- Display paginated products.
+- Evaluate segmentation rules entered by the user.
+- Show matching product results dynamically.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend (Vercel):**  
+🔗 https://woo-commerce-frontend-drab.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Backend (Render):**  
+🔗 https://woocommerce-eprk.onrender.com/api/products
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**GitHub Repository:**  
+🔗 [https://github.com/KaushikGurlhosur/WooCommerce-frontend](https://github.com/KaushikGurlhosur/WooCommerce-frontend)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **HTTP Client:** Axios
+- **Data Fetching:** TanStack React Query
+- **Language:** JavaScript (React 18)
+
+---
+
+## 🧪 Features
+
+- Paginated product display.
+- Dynamic rule editor with JSON results.
+- Error and loading states handled cleanly.
+- Responsive, simple UI built with Tailwind CSS.
+
+---
+
+## 🔧 Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/KaushikGurlhosur/WooCommerce-frontend.git
+   cd WooCommerce-frontend
+
+2. Install dependencies:
+      npm install
+
+3. Create a .env file
+     API_BASE_URL=https://woocommerce-eprk.onrender.com/api
+
+
+4. Start the Server:
+      npm run dev
+
+
